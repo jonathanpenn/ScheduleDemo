@@ -1,0 +1,41 @@
+[
+ {
+  "id":"ios-tutorial",
+  "start":"2013-03-07 08:30",
+  "topic":"All Day iOS Tutorial",
+  "length":540.0,
+  "abstract":"New to iOS programming? This one day overview will introduce you to all the basic concepts you'll need to build an application. From using Xcode's templates to displaying lists of information and navigating between screens of information. When you finish the day you'll have a fully functional iOS app that you can show off to your friends.",
+  "speaker":{
+   "id":"http://cocoaconf.com/conference/speakerDetails/60?confId=8",
+   "name":"James Dempsey",
+   "avatar":"http://cocoaconf.com/images/speaker/james-dempsey/James%20Dempsey.JPG",
+   "bio":"James Dempsey is a fifteen-year Apple veteran gone indie.  At Apple, he worked on iOS, Aperture, and OS X releases Leopard through Lion, including half a decade on the Cocoa frameworks team.  Along the way he’s trained hundreds of developers on Apple technologies, including teaching Cocoa development at Stanford University and presenting at the Worldwide Developers Conference (WWDC) for over a decade.  He founded Tapas Software to build apps for iOS and OS X, with an initial release now on the App Store.  His recently released music single The Liki Song is widely regarded as the finest Hawaiian song about the history of Cocoa memory management ever written."
+  }
+ },
+ {
+  "id":"productivity-api",
+  "start":"2013-03-07 08:30",
+  "topic":"iPad Productivity APIs workshop",
+  "length":540.0,
+  "abstract":"Tim O'Reilly once passed along an observation from Broderbund founder Doug Carlston: \"We consider a productivity application to be any application where the user's own data matters more to him than the data we provide.\"\n\nThe iPad is an absurdly wonderful device for this kind of application: big touch screen for drawing/designing/writing, gigs of storage, wireless networking to put your work in Dropbox or iCloud, and multi-core CPUs to grind through the heavy lifting. And don't let the lack of a user-visible file system fool you: inside the SDK, there is deep support for writing world-class applications to create, manage, edit, export, and distribute the user's data. Cut/copy/paste, import/export, rip/mix/burn, it's all there. But how do you find it, and how do you put the pieces together?\n\nIn this all-day tutorial, we'll look at the most essential SDKs for writing apps that let users make the most of their data, whether it's words, pictures, numbers, or media. We'll cover:\n\n...plus more neat tricks to make our users more productive.",
+  "speaker":{
+   "id":"http://cocoaconf.com/conference/speakerDetails/3?confId=8",
+   "name":"Chris Adamson",
+   "avatar":"http://cocoaconf.com/images/speaker/chris--adamson/Chris%20Adamson.JPG",
+   "bio":"Chris Adamson is an independent writer, editor, and developer, living in Grand Rapids, Michigan. Along with developing numerous App Store apps for clients, he is the co-author of iPhone SDK Development (Pragmatic Programmers) and Learning Core Audio (Addison-Wesley Professional). He maintains a corporate identity as Subsequently & Furthermore, Inc. and writes the [Time code]; blog at http://www.subfurther.com/blog.  In a previous career, he was a Writer / Associate Producer at CNN Headline News, and over the years, he has managed to own thirteen and a half Macs."
+  }
+ },
+ {
+  "id":"GameDevelopment",
+  "start":"2013-03-07 08:30",
+  "topic":"iOS 2D Game Development Workshop",
+  "length":540.0,
+  "abstract":"This workshop is for people who are past the basics of iOS developmentand are interested in developing 2D games.  When you finish, you willhave developed two mini-games and have an understanding of how toprototype and test game ideas and mechanics.  We will also cover howto integrate physics and Apple's Game Center into your programs.\n\nThis is an intermediate session, and it is assumed that attendees areiOS developers. At a minimum, you should know how to build and runapps, link and use iOS frameworks. You should have an Apple computerwith Xcode 4.4 or higher. Being able to deploy to an iOS device duringthe session is optional, but may be helpful.",
+  "speaker":{
+   "id":"http://cocoaconf.com/conference/speakerDetails/14?confId=8",
+   "name":"Josh  Smith",
+   "avatar":"http://cocoaconf.com/images/speaker/josh--smith/Josh_Smith.JPG",
+   "bio":"Josh is a Systems Engineer at Lextech Global Services(http://lextech.com/). We engineer applications for customers inalmost every industry. We have build systems from embedded softwarefor a military rocket-launcher to a medical facility iPhone app to aninventory management iPad app.  He has 15 years of professional ITexperience and has been a sysadmin (and still kinda is), programmer invarious languages, consultant, employee and guy who makes sure the popmachine is full. He lives and works in Ohio with his wife and twochildren and tries to use his powers for good."
+  }
+ }
+]

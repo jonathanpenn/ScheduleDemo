@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0B692216E5347C00224B6D /* CMSDataLoaderStub.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B692116E5347C00224B6D /* CMSDataLoaderStub.m */; };
+		AB0B692716E54CF900224B6D /* CMSDataLoader+GCDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B692616E54CF800224B6D /* CMSDataLoader+GCDHelpers.m */; };
+		AB0B692A16E54F1D00224B6D /* CMSTestSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B692916E54F1D00224B6D /* CMSTestSetup.m */; };
+		AB0B692C16E5548300224B6D /* fakeavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B692B16E5548300224B6D /* fakeavatar.png */; };
+		AB20D1E116E2AF5100458CDA /* CMSStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB20D1E016E2AF5100458CDA /* CMSStarView.m */; };
+		AB65821916E3FEE5009722AE /* CMSFlipThroughContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB65821816E3FEE5009722AE /* CMSFlipThroughContainerViewController.m */; };
+		AB81B6B516E00F8400EE0450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81B6B416E00F8400EE0450 /* UIKit.framework */; };
+		AB81B6B716E00F8400EE0450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81B6B616E00F8400EE0450 /* Foundation.framework */; };
+		AB81B6B916E00F8400EE0450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81B6B816E00F8400EE0450 /* CoreGraphics.framework */; };
+		AB81B6BF16E00F8400EE0450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB81B6BD16E00F8400EE0450 /* InfoPlist.strings */; };
+		AB81B6C116E00F8400EE0450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81B6C016E00F8400EE0450 /* main.m */; };
+		AB81B6C516E00F8400EE0450 /* CMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81B6C416E00F8400EE0450 /* CMSAppDelegate.m */; };
+		AB81B6C716E00F8400EE0450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB81B6C616E00F8400EE0450 /* Default.png */; };
+		AB81B6C916E00F8400EE0450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB81B6C816E00F8400EE0450 /* Default@2x.png */; };
+		AB81B6CB16E00F8400EE0450 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB81B6CA16E00F8400EE0450 /* Default-568h@2x.png */; };
+		AB81B6D216E0114400EE0450 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB81B6D116E0114400EE0450 /* Storyboard.storyboard */; };
+		AB81B6D516E013C700EE0450 /* CMSScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81B6D416E013C700EE0450 /* CMSScheduleTableViewController.m */; };
+		AB81B6DD16E085F000EE0450 /* CMSScheduleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB81B6DC16E085F000EE0450 /* CMSScheduleTableViewCell.m */; };
+		AB9E696B16E1D34B00BAB3F2 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB9E696A16E1D34B00BAB3F2 /* data.json */; };
+		AB9E696E16E1DAC300BAB3F2 /* CMSSpeakerAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9E696D16E1DAC300BAB3F2 /* CMSSpeakerAvatar.m */; };
+		AB9E697116E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9E697016E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.m */; };
+		AB9E76BE16E15D500055EBD7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB9E76BC16E15D500055EBD7 /* DataModel.xcdatamodeld */; };
+		ABB0132F16E110BA009CC1CA /* CMSSessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0132E16E110BA009CC1CA /* CMSSessionDetailViewController.m */; };
+		ABB0133416E11D70009CC1CA /* CMSSpeakerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0133316E11D70009CC1CA /* CMSSpeakerDetailViewController.m */; };
+		ABB0133716E1232D009CC1CA /* CMSCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0133616E1232D009CC1CA /* CMSCommonViewController.m */; };
+		ABB0134116E138C7009CC1CA /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB0133F16E138C7009CC1CA /* calendar.png */; };
+		ABB0134216E138C7009CC1CA /* calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB0134016E138C7009CC1CA /* calendar@2x.png */; };
+		ABB0134516E13933009CC1CA /* CMSSessionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0134416E13933009CC1CA /* CMSSessionsTableViewController.m */; };
+		ABBC476416E1A33600357FB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC476316E1A33600357FB4 /* CoreData.framework */; };
+		ABBC476616E1A33B00357FB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBC476516E1A33B00357FB4 /* QuartzCore.framework */; };
+		ABBC476C16E1A3D300357FB4 /* CMSSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC476B16E1A3D300357FB4 /* CMSSpeaker.m */; };
+		ABBC476F16E1A46000357FB4 /* CMSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC476E16E1A46000357FB4 /* CMSSession.m */; };
+		ABBC477216E1A49600357FB4 /* CMSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC477116E1A49600357FB4 /* CMSDocument.m */; };
+		ABBC477716E1A8B600357FB4 /* CMSDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC477616E1A8B600357FB4 /* CMSDataLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB0B692016E5347C00224B6D /* CMSDataLoaderStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSDataLoaderStub.h; sourceTree = "<group>"; };
+		AB0B692116E5347C00224B6D /* CMSDataLoaderStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSDataLoaderStub.m; sourceTree = "<group>"; };
+		AB0B692516E54CF800224B6D /* CMSDataLoader+GCDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMSDataLoader+GCDHelpers.h"; sourceTree = "<group>"; };
+		AB0B692616E54CF800224B6D /* CMSDataLoader+GCDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMSDataLoader+GCDHelpers.m"; sourceTree = "<group>"; };
+		AB0B692816E54F1D00224B6D /* CMSTestSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSTestSetup.h; sourceTree = "<group>"; };
+		AB0B692916E54F1D00224B6D /* CMSTestSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSTestSetup.m; sourceTree = "<group>"; };
+		AB0B692B16E5548300224B6D /* fakeavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fakeavatar.png; sourceTree = "<group>"; };
+		AB20D1DF16E2AF5100458CDA /* CMSStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSStarView.h; sourceTree = "<group>"; };
+		AB20D1E016E2AF5100458CDA /* CMSStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSStarView.m; sourceTree = "<group>"; };
+		AB65821716E3FEE5009722AE /* CMSFlipThroughContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSFlipThroughContainerViewController.h; sourceTree = "<group>"; };
+		AB65821816E3FEE5009722AE /* CMSFlipThroughContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSFlipThroughContainerViewController.m; sourceTree = "<group>"; };
+		AB81B6B116E00F8400EE0450 /* Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB81B6B416E00F8400EE0450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB81B6B616E00F8400EE0450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB81B6B816E00F8400EE0450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB81B6BC16E00F8400EE0450 /* Schedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Schedule-Info.plist"; sourceTree = "<group>"; };
+		AB81B6BE16E00F8400EE0450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB81B6C016E00F8400EE0450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB81B6C216E00F8400EE0450 /* Schedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Schedule-Prefix.pch"; sourceTree = "<group>"; };
+		AB81B6C316E00F8400EE0450 /* CMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSAppDelegate.h; sourceTree = "<group>"; };
+		AB81B6C416E00F8400EE0450 /* CMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMSAppDelegate.m; sourceTree = "<group>"; };
+		AB81B6C616E00F8400EE0450 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB81B6C816E00F8400EE0450 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB81B6CA16E00F8400EE0450 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB81B6D116E0114400EE0450 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AB81B6D316E013C700EE0450 /* CMSScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSScheduleTableViewController.h; sourceTree = "<group>"; };
+		AB81B6D416E013C700EE0450 /* CMSScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSScheduleTableViewController.m; sourceTree = "<group>"; };
+		AB81B6DB16E085F000EE0450 /* CMSScheduleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSScheduleTableViewCell.h; sourceTree = "<group>"; };
+		AB81B6DC16E085F000EE0450 /* CMSScheduleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSScheduleTableViewCell.m; sourceTree = "<group>"; };
+		AB9E696A16E1D34B00BAB3F2 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB9E696C16E1DAC300BAB3F2 /* CMSSpeakerAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSpeakerAvatar.h; sourceTree = "<group>"; };
+		AB9E696D16E1DAC300BAB3F2 /* CMSSpeakerAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSpeakerAvatar.m; sourceTree = "<group>"; };
+		AB9E696F16E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSFavoritesTableViewController.h; sourceTree = "<group>"; };
+		AB9E697016E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSFavoritesTableViewController.m; sourceTree = "<group>"; };
+		AB9E76BD16E15D500055EBD7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		ABB0132D16E110BA009CC1CA /* CMSSessionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSessionDetailViewController.h; sourceTree = "<group>"; };
+		ABB0132E16E110BA009CC1CA /* CMSSessionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSessionDetailViewController.m; sourceTree = "<group>"; };
+		ABB0133216E11D70009CC1CA /* CMSSpeakerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSpeakerDetailViewController.h; sourceTree = "<group>"; };
+		ABB0133316E11D70009CC1CA /* CMSSpeakerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSpeakerDetailViewController.m; sourceTree = "<group>"; };
+		ABB0133516E1232D009CC1CA /* CMSCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSCommonViewController.h; sourceTree = "<group>"; };
+		ABB0133616E1232D009CC1CA /* CMSCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSCommonViewController.m; sourceTree = "<group>"; };
+		ABB0133F16E138C7009CC1CA /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		ABB0134016E138C7009CC1CA /* calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar@2x.png"; sourceTree = "<group>"; };
+		ABB0134316E13933009CC1CA /* CMSSessionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSessionsTableViewController.h; sourceTree = "<group>"; };
+		ABB0134416E13933009CC1CA /* CMSSessionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSessionsTableViewController.m; sourceTree = "<group>"; };
+		ABBC474516E19BA500357FB4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABBC476316E1A33600357FB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABBC476516E1A33B00357FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABBC476A16E1A3D300357FB4 /* CMSSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSpeaker.h; sourceTree = "<group>"; };
+		ABBC476B16E1A3D300357FB4 /* CMSSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSpeaker.m; sourceTree = "<group>"; };
+		ABBC476D16E1A46000357FB4 /* CMSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSession.h; sourceTree = "<group>"; };
+		ABBC476E16E1A46000357FB4 /* CMSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSession.m; sourceTree = "<group>"; };
+		ABBC477016E1A49600357FB4 /* CMSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSDocument.h; sourceTree = "<group>"; };
+		ABBC477116E1A49600357FB4 /* CMSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSDocument.m; sourceTree = "<group>"; };
+		ABBC477516E1A8B600357FB4 /* CMSDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSDataLoader.h; sourceTree = "<group>"; };
+		ABBC477616E1A8B600357FB4 /* CMSDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSDataLoader.m; sourceTree = "<group>"; };
+		ABFF7D7416E3E65D0088612F /* CMSScheduleDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMSScheduleDataSource.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB81B6AE16E00F8400EE0450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBC476616E1A33B00357FB4 /* QuartzCore.framework in Frameworks */,
+				ABBC476416E1A33600357FB4 /* CoreData.framework in Frameworks */,
+				AB81B6B516E00F8400EE0450 /* UIKit.framework in Frameworks */,
+				AB81B6B716E00F8400EE0450 /* Foundation.framework in Frameworks */,
+				AB81B6B916E00F8400EE0450 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB10E9BA16E4598000618543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB81B6DB16E085F000EE0450 /* CMSScheduleTableViewCell.h */,
+				AB81B6DC16E085F000EE0450 /* CMSScheduleTableViewCell.m */,
+				AB20D1DF16E2AF5100458CDA /* CMSStarView.h */,
+				AB20D1E016E2AF5100458CDA /* CMSStarView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AB10E9BB16E4598B00618543 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0133516E1232D009CC1CA /* CMSCommonViewController.h */,
+				ABB0133616E1232D009CC1CA /* CMSCommonViewController.m */,
+				AB65821716E3FEE5009722AE /* CMSFlipThroughContainerViewController.h */,
+				AB65821816E3FEE5009722AE /* CMSFlipThroughContainerViewController.m */,
+				AB81B6D316E013C700EE0450 /* CMSScheduleTableViewController.h */,
+				AB81B6D416E013C700EE0450 /* CMSScheduleTableViewController.m */,
+				ABB0134316E13933009CC1CA /* CMSSessionsTableViewController.h */,
+				ABB0134416E13933009CC1CA /* CMSSessionsTableViewController.m */,
+				AB9E696F16E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.h */,
+				AB9E697016E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.m */,
+				ABB0132D16E110BA009CC1CA /* CMSSessionDetailViewController.h */,
+				ABB0132E16E110BA009CC1CA /* CMSSessionDetailViewController.m */,
+				ABB0133216E11D70009CC1CA /* CMSSpeakerDetailViewController.h */,
+				ABB0133316E11D70009CC1CA /* CMSSpeakerDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AB81B6A816E00F8400EE0450 = {
+			isa = PBXGroup;
+			children = (
+				AB81B6BA16E00F8400EE0450 /* Schedule */,
+				AB81B6B316E00F8400EE0450 /* Frameworks */,
+				AB81B6B216E00F8400EE0450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB81B6B216E00F8400EE0450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB81B6B116E00F8400EE0450 /* Schedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB81B6B316E00F8400EE0450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC476516E1A33B00357FB4 /* QuartzCore.framework */,
+				ABBC476316E1A33600357FB4 /* CoreData.framework */,
+				AB81B6B416E00F8400EE0450 /* UIKit.framework */,
+				AB81B6B616E00F8400EE0450 /* Foundation.framework */,
+				AB81B6B816E00F8400EE0450 /* CoreGraphics.framework */,
+				ABBC474516E19BA500357FB4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB81B6BA16E00F8400EE0450 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0133C16E138AE009CC1CA /* Testing */,
+				AB81B6C316E00F8400EE0450 /* CMSAppDelegate.h */,
+				AB81B6C416E00F8400EE0450 /* CMSAppDelegate.m */,
+				AB10E9BB16E4598B00618543 /* View Controllers */,
+				AB10E9BA16E4598000618543 /* Views */,
+				AB8FFC0716E76925002A036B /* Network */,
+				ABBC477416E1A86200357FB4 /* Models */,
+				ABB0133B16E138A9009CC1CA /* Resources */,
+				AB81B6BB16E00F8400EE0450 /* Supporting Files */,
+				AB81B6D116E0114400EE0450 /* Storyboard.storyboard */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		AB81B6BB16E00F8400EE0450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB81B6BC16E00F8400EE0450 /* Schedule-Info.plist */,
+				AB81B6BD16E00F8400EE0450 /* InfoPlist.strings */,
+				AB81B6C016E00F8400EE0450 /* main.m */,
+				AB81B6C216E00F8400EE0450 /* Schedule-Prefix.pch */,
+				AB81B6C616E00F8400EE0450 /* Default.png */,
+				AB81B6C816E00F8400EE0450 /* Default@2x.png */,
+				AB81B6CA16E00F8400EE0450 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8FFC0716E76925002A036B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ABBC477516E1A8B600357FB4 /* CMSDataLoader.h */,
+				ABBC477616E1A8B600357FB4 /* CMSDataLoader.m */,
+				AB0B692516E54CF800224B6D /* CMSDataLoader+GCDHelpers.h */,
+				AB0B692616E54CF800224B6D /* CMSDataLoader+GCDHelpers.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		ABB0133B16E138A9009CC1CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0133F16E138C7009CC1CA /* calendar.png */,
+				ABB0134016E138C7009CC1CA /* calendar@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABB0133C16E138AE009CC1CA /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E696A16E1D34B00BAB3F2 /* data.json */,
+				AB0B692B16E5548300224B6D /* fakeavatar.png */,
+				AB0B692016E5347C00224B6D /* CMSDataLoaderStub.h */,
+				AB0B692116E5347C00224B6D /* CMSDataLoaderStub.m */,
+				AB0B692816E54F1D00224B6D /* CMSTestSetup.h */,
+				AB0B692916E54F1D00224B6D /* CMSTestSetup.m */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		ABBC477416E1A86200357FB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF7D7416E3E65D0088612F /* CMSScheduleDataSource.h */,
+				ABBC477016E1A49600357FB4 /* CMSDocument.h */,
+				ABBC477116E1A49600357FB4 /* CMSDocument.m */,
+				ABBC476A16E1A3D300357FB4 /* CMSSpeaker.h */,
+				ABBC476B16E1A3D300357FB4 /* CMSSpeaker.m */,
+				AB9E696C16E1DAC300BAB3F2 /* CMSSpeakerAvatar.h */,
+				AB9E696D16E1DAC300BAB3F2 /* CMSSpeakerAvatar.m */,
+				ABBC476D16E1A46000357FB4 /* CMSSession.h */,
+				ABBC476E16E1A46000357FB4 /* CMSSession.m */,
+				AB9E76BC16E15D500055EBD7 /* DataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB81B6B016E00F8400EE0450 /* Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB81B6CE16E00F8400EE0450 /* Build configuration list for PBXNativeTarget "Schedule" */;
+			buildPhases = (
+				AB81B6AD16E00F8400EE0450 /* Sources */,
+				AB81B6AE16E00F8400EE0450 /* Frameworks */,
+				AB81B6AF16E00F8400EE0450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedule;
+			productName = Schedule;
+			productReference = AB81B6B116E00F8400EE0450 /* Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB81B6A916E00F8400EE0450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CMS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Cocoa Manifest";
+			};
+			buildConfigurationList = AB81B6AC16E00F8400EE0450 /* Build configuration list for PBXProject "Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB81B6A816E00F8400EE0450;
+			productRefGroup = AB81B6B216E00F8400EE0450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB81B6B016E00F8400EE0450 /* Schedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB81B6AF16E00F8400EE0450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB81B6BF16E00F8400EE0450 /* InfoPlist.strings in Resources */,
+				AB81B6C716E00F8400EE0450 /* Default.png in Resources */,
+				AB81B6C916E00F8400EE0450 /* Default@2x.png in Resources */,
+				AB81B6CB16E00F8400EE0450 /* Default-568h@2x.png in Resources */,
+				AB81B6D216E0114400EE0450 /* Storyboard.storyboard in Resources */,
+				ABB0134116E138C7009CC1CA /* calendar.png in Resources */,
+				ABB0134216E138C7009CC1CA /* calendar@2x.png in Resources */,
+				AB9E696B16E1D34B00BAB3F2 /* data.json in Resources */,
+				AB0B692C16E5548300224B6D /* fakeavatar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB81B6AD16E00F8400EE0450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB81B6C116E00F8400EE0450 /* main.m in Sources */,
+				AB81B6C516E00F8400EE0450 /* CMSAppDelegate.m in Sources */,
+				AB81B6D516E013C700EE0450 /* CMSScheduleTableViewController.m in Sources */,
+				AB81B6DD16E085F000EE0450 /* CMSScheduleTableViewCell.m in Sources */,
+				ABB0132F16E110BA009CC1CA /* CMSSessionDetailViewController.m in Sources */,
+				ABB0133416E11D70009CC1CA /* CMSSpeakerDetailViewController.m in Sources */,
+				ABB0133716E1232D009CC1CA /* CMSCommonViewController.m in Sources */,
+				ABB0134516E13933009CC1CA /* CMSSessionsTableViewController.m in Sources */,
+				AB9E76BE16E15D500055EBD7 /* DataModel.xcdatamodeld in Sources */,
+				ABBC476C16E1A3D300357FB4 /* CMSSpeaker.m in Sources */,
+				ABBC476F16E1A46000357FB4 /* CMSSession.m in Sources */,
+				ABBC477216E1A49600357FB4 /* CMSDocument.m in Sources */,
+				ABBC477716E1A8B600357FB4 /* CMSDataLoader.m in Sources */,
+				AB9E696E16E1DAC300BAB3F2 /* CMSSpeakerAvatar.m in Sources */,
+				AB9E697116E1DF2F00BAB3F2 /* CMSFavoritesTableViewController.m in Sources */,
+				AB20D1E116E2AF5100458CDA /* CMSStarView.m in Sources */,
+				AB65821916E3FEE5009722AE /* CMSFlipThroughContainerViewController.m in Sources */,
+				AB0B692216E5347C00224B6D /* CMSDataLoaderStub.m in Sources */,
+				AB0B692716E54CF900224B6D /* CMSDataLoader+GCDHelpers.m in Sources */,
+				AB0B692A16E54F1D00224B6D /* CMSTestSetup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB81B6BD16E00F8400EE0450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB81B6BE16E00F8400EE0450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB81B6CC16E00F8400EE0450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB81B6CD16E00F8400EE0450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB81B6CF16E00F8400EE0450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schedule/Schedule-Prefix.pch";
+				INFOPLIST_FILE = "Schedule/Schedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB81B6D016E00F8400EE0450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schedule/Schedule-Prefix.pch";
+				INFOPLIST_FILE = "Schedule/Schedule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB81B6AC16E00F8400EE0450 /* Build configuration list for PBXProject "Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB81B6CC16E00F8400EE0450 /* Debug */,
+				AB81B6CD16E00F8400EE0450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB81B6CE16E00F8400EE0450 /* Build configuration list for PBXNativeTarget "Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB81B6CF16E00F8400EE0450 /* Debug */,
+				AB81B6D016E00F8400EE0450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB9E76BC16E15D500055EBD7 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB9E76BD16E15D500055EBD7 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = AB9E76BD16E15D500055EBD7 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB81B6A916E00F8400EE0450 /* Project object */;
+}

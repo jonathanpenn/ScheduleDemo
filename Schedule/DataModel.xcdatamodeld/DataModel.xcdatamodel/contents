@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C3012" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Session" representedClassName="CMSSession" syncable="YES">
+        <attribute name="abstract" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="length" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="start" attributeType="Date" syncable="YES"/>
+        <attribute name="topic" attributeType="String" syncable="YES"/>
+        <relationship name="speaker" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Speaker" inverseName="sessions" inverseEntity="Speaker" syncable="YES"/>
+    </entity>
+    <entity name="Speaker" representedClassName="CMSSpeaker" syncable="YES">
+        <attribute name="avatarURLString" optional="YES" attributeType="String" valueTransformerName="NSURLtoNSStringValueTransformer" syncable="YES"/>
+        <attribute name="bio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="avatar" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SpeakerAvatar" inverseName="speaker" inverseEntity="SpeakerAvatar" syncable="YES"/>
+        <relationship name="sessions" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="Session" inverseName="speaker" inverseEntity="Session" syncable="YES"/>
+    </entity>
+    <entity name="SpeakerAvatar" representedClassName="CMSSpeakerAvatar" syncable="YES">
+        <attribute name="imageData" attributeType="Binary" syncable="YES"/>
+        <relationship name="speaker" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Speaker" inverseName="avatar" inverseEntity="Speaker" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Session" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="Speaker" positionX="351" positionY="225" width="128" height="135"/>
+        <element name="SpeakerAvatar" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>
