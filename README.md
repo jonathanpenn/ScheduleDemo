@@ -3,6 +3,8 @@ Schedule (a UI Automation Demonstration)
 
 This demo app pulls from a fake JSON feed scraped from the CocoaConf 2013 Chicago schedule. I use it to live demonstrate writing automation tests for behavior and performance against an application that uses Core Data and external network services.
 
+You can find more information about my UI Automation resources [here](http://cocoamanifest.net/features).
+
 ## Walkthrough
 
 In my talk, I go through several steps to build up some simple tests for this app that we eventually run from the command line on both the simulator and an attached iOS device.
