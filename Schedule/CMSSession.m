@@ -42,7 +42,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         dateParser = [[NSDateFormatter alloc] init];
-        [dateParser setDateFormat:@"YYYY-MM-dd H:m"];
+        [dateParser setDateFormat:@"yyyy-MM-dd H:m"];
     });
 
     self.id = dict[@"id"];
