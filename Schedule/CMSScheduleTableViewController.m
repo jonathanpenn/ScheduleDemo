@@ -200,7 +200,9 @@
     NSIndexPath *path = [self.fetchedResultsController indexPathForObject:session];
     NSIndexPath *nextPath = nil;
 
-    if (path.row < [self tableView:self.tableView numberOfRowsInSection:path.section] - 1) {
+    if (path == nil) {
+        return nil;
+    } else if (path.row < [self tableView:self.tableView numberOfRowsInSection:path.section] - 1) {
         nextPath = [NSIndexPath indexPathForRow:path.row + 1 inSection:path.section];
     } else if (path.section < [self numberOfSectionsInTableView:self.tableView] - 1) {
         nextPath = [NSIndexPath indexPathForRow:0 inSection:path.section + 1];
@@ -216,7 +218,9 @@
     NSIndexPath *path = [self.fetchedResultsController indexPathForObject:session];
     NSIndexPath *prevPath = nil;
 
-    if (path.row > 0) {
+    if (path == nil) {
+        return nil;
+    } else if (path.row > 0) {
         prevPath = [NSIndexPath indexPathForRow:path.row-1 inSection:path.section];
     } else if (path.section > 0) {
         NSInteger row = [self tableView:self.tableView numberOfRowsInSection:path.section-1]-1;
