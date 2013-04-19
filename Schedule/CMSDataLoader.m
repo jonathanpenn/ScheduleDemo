@@ -55,7 +55,7 @@ static CMSDataLoader *sharedLoader = nil;
         __block NSError *error = nil;
         // Yeah, yeah, we're pulling the JSON feed from a static resource stored
         // on S3. Work with me here. Pretend this is live. :)
-        NSURL *dataURL = [NSURL URLWithString:@"http://nl1551.s3.amazonaws.com/cocoamanifest.net/2013/cocoaconf-dallas-2013-json/sessions.json"];
+        NSURL *dataURL = [NSURL URLWithString:@"http://nl1551.s3.amazonaws.com/cocoamanifest.net/2013/cocoaconf-sanjose-2013-json/sessions.json"];
         NSArray *array = [self fetchJSONDataFromURL:dataURL error:&error];
 
         if (!array) {
