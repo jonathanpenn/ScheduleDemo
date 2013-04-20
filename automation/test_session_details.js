@@ -11,7 +11,7 @@ test("Viewing session details and swipe to go back", function() {
     var d = SessionDetailScreen;
     d.assertSpeaker("James Dempsey");
     d.assertTopic(name);
-    d.assertTime("Wednesday, 8:30 AM");
+    d.assertTime("Thursday, 8:30 AM");
     d.assertAbstractContains("New to iOS programming?");
 
     d.swipeToGoBack();
