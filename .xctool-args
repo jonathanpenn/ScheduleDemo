@@ -1,0 +1,7 @@
+[
+  "-project", "Schedule.xcodeproj",
+  "-scheme", "Schedule",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
