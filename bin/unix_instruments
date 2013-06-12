@@ -72,7 +72,7 @@ get_error_status() {
 }
 
 trap cleanup_instruments EXIT
-function cleanup_instruments() {
+cleanup_instruments() {
   # Because we fork instruments in this script, we need to clean up if it's
   # still running because of an error or the user pressed Ctrl-C
   if [[ $pid_instruments -gt 0 ]]; then
